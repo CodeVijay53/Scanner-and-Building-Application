@@ -1,0 +1,10 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HKLS_App.Views.ProjectSelectionPage">
+    <StackLayout Padding="30" Spacing="10">
+        <Label Text="Select a Project" FontSize="Large"/>
+        <Picker x:Name="projectPicker" Title="Choose Project" />
+        <Button Text="Upload IFC Model" Clicked="OnUploadClicked"/>
+        <Button Text="Continue" Clicked="OnContinueClicked"/>
+    </StackLayout>
+</ContentPage>

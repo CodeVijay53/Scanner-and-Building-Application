@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                x:Class="HKLS_App.Views.LoginPage">
+    <StackLayout Padding="30" Spacing="10">
+        <Label Text="Login" FontSize="Large"/>
+        <Entry x:Name="emailEntry" Placeholder="Email"/>
+        <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True"/>
+        <Button Text="Login" Clicked="OnLoginClicked"/>
+        <Button Text="Sign Up" Clicked="OnSignupClicked"/>
+    </StackLayout>
+</ContentPage>
